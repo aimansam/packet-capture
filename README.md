@@ -1,11 +1,11 @@
 # Packet Capture
 
 ```text
-########     ######     ######## ##      ## ########## ##########
-##      ## ##      ## ##         ##    ##   ##             ##    
-########   ##      ## ##         ######     ########       ##    
-##         ########## ##         ##    ##   ##             ##    
-##         ##      ##   ######## ##      ## ##########     ##    
+ ___  _   ___ _  _____ _____ 
+| _ \/_\ / __| |/ / __|_   _|
+|  _/ _ \ (__| ' <| _|  | |  
+|_|/_/ \_\___|_|\_\___| |_|  
+                             
 ```
 
 Network packet capture and analyzer in Python using raw sockets. Capture, filter, and analyze network traffic from the command line.
