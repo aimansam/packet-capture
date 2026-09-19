@@ -1,5 +1,12 @@
 # Packet Capture
 
+```text
+╔══════════════════════════════╗
+║        PACKET SCOPE          ║
+║  capture · filter · analyze  ║
+╚══════════════════════════════╝
+```
+
 Network packet capture and analyzer in Python using raw sockets. Capture, filter, and analyze network traffic from the command line.
 
 [![Python](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
