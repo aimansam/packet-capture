@@ -24,35 +24,23 @@ pip install -e .
 
 ## Quick Start
 
-Capture packets on a network interface:
+Run the safe simulation mode (the current implementation does not capture live packets):
 
 ```bash
-python -m scanner capture --interface eth0 --count 100
+packet-analyzer simulate 100
 ```
 
 Capture and filter by protocol:
 
 ```bash
-python -m scanner capture --interface eth0 --protocol TCP
-```
-
-Analyze a PCAP file:
-
-```bash
-python -m scanner analyze capture.pcap
-```
-
-Generate traffic statistics:
-
-```bash
-python -m scanner stats --interface eth0 --duration 60
+packet-analyzer capture eth0 --count 100
 ```
 
 ## Requirements
 
 - Python 3.9+
 - No external dependencies (stdlib only)
-- Linux with raw socket support (requires root or CAP_NET_RAW)
+- Capture mode currently simulates traffic; live capture and PCAP import are planned.
 
 ## Limitations
 
@@ -63,4 +51,3 @@ using `scapy` or `dpkt` as additional dependencies.
 ## License
 
 MIT
-
